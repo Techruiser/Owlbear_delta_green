@@ -1,14 +1,15 @@
+
 {
   "name": "Delta Green: Protocolo D20",
   "version": "1.0.0",
   "manifest_version": 1,
   "description": "Ficha de Delta Green adaptada para D20, com registro de rolagens compartilhado e painel do Mestre.",
   "author": "Cruiser",
-  "icon": "icon.svg",
+  "icon": "https://techruiser.github.io/Owlbear_delta_green/icon.svg",
   "action": {
     "title": "Delta Green D20",
-    "icon": "icon.svg",
-    "popover": "./index.html",
+    "icon": "https://techruiser.github.io/Owlbear_delta_green/icon.svg",
+    "popover": "https://techruiser.github.io/Owlbear_delta_green/index.html",
     "height": 680,
     "width": 420
   }
