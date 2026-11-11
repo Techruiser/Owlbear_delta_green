@@ -1,0 +1,15 @@
+{
+  "name": "Delta Green: Protocolo D20",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "description": "Ficha de Delta Green adaptada para D20, com registro de rolagens compartilhado e painel do Mestre.",
+  "author": "Lurui",
+  "icon": "icon.svg",
+  "action": {
+    "title": "Delta Green D20",
+    "icon": "icon.svg",
+    "popover": "./index.html",
+    "height": 680,
+    "width": 420
+  }
+}
