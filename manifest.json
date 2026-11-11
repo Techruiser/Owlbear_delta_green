@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "manifest_version": 1,
   "description": "Ficha de Delta Green adaptada para D20, com registro de rolagens compartilhado e painel do Mestre.",
-  "author": "Lurui",
+  "author": "Cruiser",
   "icon": "icon.svg",
   "action": {
     "title": "Delta Green D20",
