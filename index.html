@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Delta Green — Protocolo D20</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="tape">▲ DELTA GREEN // A-CELL // SOMENTE OLHOS AUTORIZADOS</div>
+  <header>
+    <div class="brand"><span class="delta">△</span> PROTOCOLO D20</div>
+    <div class="sub"><span id="who">AGENTE: —</span><span id="roleBadge" class="badge">…</span></div>
+  </header>
+  <nav id="tabs">
+    <button data-tab="ficha" class="on">FICHA</button>
+    <button data-tab="skills">PERÍCIAS</button>
+    <button data-tab="combat">COMBATE</button>
+    <button data-tab="log">REGISTRO</button>
+    <button data-tab="gm" id="gmTab" hidden>■ MESTRE</button>
+    <button data-tab="rules">REGRAS</button>
+  </nav>
+  <main id="main"></main>
+  <footer>
+    <span id="status">inicializando…</span>
+    <label class="dc">DC
+      <select id="dc">
+        <option>8</option><option selected>10</option><option>12</option>
+        <option>14</option><option>15</option><option>16</option>
+        <option>18</option><option>20</option>
+      </select>
+    </label>
+  </footer>
+  <input type="file" id="importFile" accept="application/json" hidden />
+  <script type="module" src="main.js"></script>
+</body>
+</html>
